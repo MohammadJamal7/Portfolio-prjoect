@@ -1,0 +1,535 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    padding-top: 30px; /* Adjust padding to account for the navbar height */
+    
+    
+}
+H2 {color: #229799;}
+.main-nav {
+    background-color: #229799;
+    
+    
+}
+
+.navbar-nav {
+    margin-right: 5%;
+    
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-left: 30px;
+    font-weight: 600;
+    /* color: white !important; */
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.9s ease;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: black !important;
+   
+}
+.navbar-toggler{
+   width: auto;
+}
+
+/* Overview page */
+.overview-div {
+    height: 500px;
+    margin-top: 1.7%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1, .div2 {
+    width: 100px;
+    height: 100px;
+}
+
+.myimage {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px 3px 0px 10px;
+    border-radius: 50px 0px;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.9s ease;
+}
+
+.myimage:hover {
+    transform: translateY(-30px);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+.zarqa {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.objectives {
+    font-size: larger;
+    width: 50%;
+}
+
+#name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.major {
+    color: #229799;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.linkes {
+    margin-top: 16%;
+}
+
+.social {
+    height: 50px;
+    margin: 15px;
+    transition: height 200ms ease;
+    
+}
+
+.social:hover {
+    height: 60px;
+}
+
+ .Education-div, .projects-div, .experience-div , .contact-main-div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Education page */
+.Education-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #F5F5F5;
+    opacity: 0.9;
+    
+}
+
+.minlin {
+    height: 2px;
+    border-top: 3px solid black;
+}
+
+.edu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+.edu1, .edu2 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    padding: 20px;
+   
+    
+    
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); */
+}
+
+/* .edu1:hover, .edu2:hover {
+    background-color: #295F98;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+} */
+
+.liner {
+    margin-top: 5%;
+    border-left: 2px solid black;
+    height: 100px;
+}
+
+/* Experience page */
+.experience-div {
+    height: auto;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills , .courses {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+height: 100%;
+width: 100%;
+padding-top: 30px;
+
+
+}
+.skills-content-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #229799; */
+}
+.experience-images {
+    width: 25%;
+    
+}
+
+.innerContent {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    border: 1px solid #229799;
+    width: 100%;
+    height: 100%;
+}
+
+/* Projects page */
+.projects-div {
+    height: auto;
+    background-color: #F5F7F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin : 10% auto
+}
+
+.card1, .card2, .card3 {
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.8s ease;
+}
+
+.cards p {
+    font-size: larger;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cards a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    background-color: #229799;
+    width: 45%;
+    height: 15%;
+    border-radius: 5px;
+   margin-bottom: 3%;
+   font-size: 90%;
+}
+
+.contact-main-div{
+    background-color: #F2F2F2;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-div {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 15px;
+    width: 100%;
+    /* border: 1px solid #229799; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* align-items: start; */
+}
+ .inTouch {
+    padding-top: 5%;
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid #229799; */
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+   
+ }
+ .contacting {
+    text-align: center;
+    width: 60%;
+    height: 100%;
+ }
+
+
+ .skillContainer {
+    width: fit-content;
+    height: fit-content;
+   
+    padding: 2%;
+    border-radius: 1px;
+}
+
+form {
+    
+    padding: 50px;
+    border-radius: 8px;
+   
+    width:100%;
+    
+}
+
+input, textarea {
+    margin: 20px;
+    padding: 15px;
+    background-color: inherit;
+    width: 100%;
+   
+    margin-bottom: 10px;
+    border:none ;
+   
+    border-radius: 10px;
+   
+}
+textarea {
+    height: 100%;
+    resize: vertical;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #229799;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#218283;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #229799;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Queries */
+
+/* Large tablets and above */
+@media (min-width: 992px) {
+    .main-nav {
+        height: 9%;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.4rem;
+        margin-left: 40px;
+    }
+
+    .exp-div {
+        width: 350px;
+        height: 200px;
+        padding: 30px;
+    }
+
+    .cards {
+        width: 90%;
+    }
+
+    .card1, .card2, .card3 {
+        width: 28%;
+    }
+       .edu1, .edu2 {
+        font-size: 1.8em;
+       }
+    ul {
+        font-size: larger;
+
+    }
+
+    .innerContent {
+        justify-content: space-evenly;
+        
+    }
+   
+}
+
+/* Tablets and below */
+@media (max-width: 992px) and (min-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1.1rem;
+        margin-left: 25px;
+    }
+
+    .exp-div {
+        width: 270px;
+        height: 180px;
+        font-size: smaller;
+        padding: 25px;
+    }
+
+    .cards {
+        width: 85%;
+        height: 50%;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 32%;
+    }
+}
+
+/* Small devices */
+@media (max-width: 768px) 
+{
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        margin-left: 15px;
+
+    }
+     /* .main-nav {
+        height: 7%;
+     } */
+     .main-nav img {
+        width: 50px ;
+     }
+    
+    .exp-div {
+        width: 250px;
+        height: 150px;
+        font-size: smaller;
+        padding: 20px;
+    }
+
+    .exp-div p {
+        font-size: small;
+    }
+
+    .exp-div h4 {
+        font-size: 17px;
+    }
+
+    .myimage img {
+        height: 150px;
+        
+
+    }
+    .myimage {
+        padding: 6px 11px 0px 10px;
+        margin-right: 9px;
+    }
+
+    .zarqa, .objectives, #name {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .social {
+        height: 30px;
+        margin: 7px;
+    }
+
+    .major {
+        font-size: 15px;
+    }
+    
+
+    .cards {
+        width: 85%;
+        height: 50%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    .card1, .card2, .card3 {
+        width: 75%;
+    }
+   
+    
+    .liner {
+        margin-top: 10%; 
+        margin-bottom: 10%;
+        border-top: 2px solid black;
+        border-left: none;
+        width: 40%;
+        height: 0;
+        
+    }
+
+    .Education-div .liner {
+        margin-top: 15%;
+        width: 0px;
+        height: 100px;
+        
+        border-left: 2px solid black;
+        border-bottom: none;
+    }
+    .experience-div h3 {
+        font-size: 20px;
+    }
+    .contact-div {
+       
+         margin-top: 20px;
+         margin-bottom: 20px;
+        width: 100%;
+        /* border: 1px solid #229799; */
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* align-items: start; */
+    }
+    .inTouch, .contacting {
+        width: 120%;
+        
+    }
+    
+}
+
+.heading {
+    text-align: center;
+    position: relative;
+    margin: 1% 0;
+}
+
